@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "max.panda.pandamod.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"ExampleMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
