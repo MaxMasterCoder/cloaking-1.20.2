@@ -1,5 +1,6 @@
 package max.panda.pandamod;
 
+import max.panda.pandamod.item.ModItemGroups;
 import max.panda.pandamod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -14,5 +15,6 @@ public class PandaMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModItemGroups.RegisterModItemGroups();
 	}
 }
