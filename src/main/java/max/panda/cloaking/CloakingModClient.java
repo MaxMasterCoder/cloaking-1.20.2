@@ -1,8 +1,8 @@
-package max.panda.pandamod;
+package max.panda.cloaking;
 
 import net.fabricmc.api.ClientModInitializer;
 
-public class PandaModClient implements ClientModInitializer {
+public class CloakingModClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
 

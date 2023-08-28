@@ -1,8 +1,8 @@
 {
 	"schemaVersion": 1,
-	"id": "pandamod",
+	"id": "cloaking",
 	"version": "${version}",
-	"name": "pandamod",
+	"name": "cloaking",
 	"description": "This is a mod created by MaxMasterCoder",
 	"authors": [
 		"MaxMasterCoder"
@@ -12,17 +12,17 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "MIT",
-	"icon": "assets/pandamod/icon.png",
+	"icon": "assets/cloaking/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"max.panda.pandamod.PandaMod"
+			"max.panda.cloaking.CloakingMod"
 		],
 		"client": [
-			"max.panda.pandamod.PandaModClient"
+			"max.panda.cloaking.CloakingModClient"
 		],
 		"fabric-datagen": [
-			"max.panda.pandamod.PandaModDataGenerator"
+			"max.panda.cloaking.CloakingModDataGenerator"
 		]
 	},
 	"mixins": [

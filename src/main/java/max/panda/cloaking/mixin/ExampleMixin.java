@@ -1,4 +1,4 @@
-package max.panda.pandamod.mixin;
+package max.panda.cloaking.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;
