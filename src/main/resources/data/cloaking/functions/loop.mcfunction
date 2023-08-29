@@ -1,0 +1,2 @@
+execute as @e[type=player,nbt={Inventory:[{Slot:103b,tag:{Enchantments:[{id:"cloaking:cloaking",lvl:1s}]}}]}] run team join cloaked
+execute as @e[type=player,nbt=!{Inventory:[{Slot:103b,tag:{Enchantments:[{id:"cloaking:cloaking",lvl:1s}]}}]}] run team leave @s
