@@ -1,5 +1,6 @@
 package max.panda.cloaking;
 
+import max.panda.cloaking.enchantment.ModEnchantments;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -12,6 +13,6 @@ public class CloakingMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModEnchantments.registerModEnchantments();
 	}
 }
