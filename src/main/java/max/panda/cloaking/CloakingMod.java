@@ -13,6 +13,8 @@ public class CloakingMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		LOGGER.info("Commencing CloakingMod");
 		ModEnchantments.registerModEnchantments();
 	}
+
 }
