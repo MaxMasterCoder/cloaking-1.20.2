@@ -1,2 +1,0 @@
-execute as @e[type=player,nbt={Inventory:[{Slot:103b,tag:{Enchantments:[{id:"cloaking:cloaking",lvl:1s}]}}]}] unless entity @s[team=cloaked] run team join cloaked
-execute as @e[type=player,nbt=!{Inventory:[{Slot:103b,tag:{Enchantments:[{id:"cloaking:cloaking",lvl:1s}]}}]}] if entity @s[team=cloaked] run team leave @s
