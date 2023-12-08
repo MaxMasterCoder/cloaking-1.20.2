@@ -7,7 +7,7 @@ import net.minecraft.entity.EquipmentSlot;
 public class CloakingEnchantment extends Enchantment {
 
     public CloakingEnchantment() {
-        super(Rarity.VERY_RARE,
+        super(Enchantment.Rarity.VERY_RARE,
                 EnchantmentTarget.ARMOR_HEAD, new EquipmentSlot[] {EquipmentSlot.HEAD});
     }
 }
